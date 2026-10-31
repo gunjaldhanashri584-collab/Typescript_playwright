@@ -1,0 +1,19 @@
+{
+  "name": "attswes-1100-am-16-augproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "smoke1": "npx playwright test --grep @smoke --project=chrome",
+    "sanity": "npx playwright test --grep @sanity --project=chrome"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "allure-playwright": "^3.14.0"
+  }
+}
